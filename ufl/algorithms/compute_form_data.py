@@ -404,7 +404,7 @@ def compute_form_data(form,
     # faster!
     preprocessed_form = reconstruct_form_from_integral_data(self.integral_data)
 
-    check_form_arity(preprocessed_form, self.original_form.arguments(), complex_mode)  # Currently testing how fast this is
+    #check_form_arity(preprocessed_form, self.original_form.arguments(), complex_mode)  # Currently testing how fast this is
 
     # TODO: This member is used by unit tests, change the tests to
     # remove this!
